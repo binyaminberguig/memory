@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "lib/",
+        "sourceMap": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "target": "es5",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "declaration": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "jest",
+            "node"
+        ],
+        "noUnusedLocals": true,
+        "pretty": true
+    }
+}
